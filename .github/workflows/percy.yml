@@ -24,7 +24,7 @@ jobs:
         run: |
           ddev start
           sleep 30  # Wait for everything to load, adjust if necessary
-          curl --retry 5 --retry-delay 5 --retry-all-errors --fail http://127.0.0.1:8080
+          curl --retry 5 --retry-delay 5 --retry-all-errors --fail http://127.0.0.1
           ddev import-db --file=database/db.sql
           ddev drush cr
           ddev drush cim -y

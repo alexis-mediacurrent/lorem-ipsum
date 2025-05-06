@@ -5,7 +5,7 @@ const percySnapshot = require('@percy/puppeteer');
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
 
-  const baseUrl = 'https://lorem-ipsum.ddev.site';
+  const baseUrl = 'http://lorem-ipsum.ddev.site';
 
   // List de routes to test.
   const routes = [
