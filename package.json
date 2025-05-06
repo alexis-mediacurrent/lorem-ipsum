@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "@percy/puppeteer": "^2.0.2",
+    "puppeteer": "^24.8.1"
+  }
+}
