@@ -131,3 +131,9 @@ mochawesome*
 /phpcs.xml.dist
 /.twig-cs-fixer.dist.php
 /phpstan.neon.dist
+
+# Ignore Percy
+/test-results
+/percy-cache
+/percy-cache-dir
+/percy-cache-dir-dir
