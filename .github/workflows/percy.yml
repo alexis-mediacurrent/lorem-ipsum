@@ -25,7 +25,7 @@ jobs:
           ddev start
           sleep 30  # Wait for everything to load, adjust if necessary
           ddev describe
-          ddev composer install --no-dev 
+          ddev composer install
           ddev import-db --file=database/db.sql
           ddev drush cr
           ddev drush cim -y
