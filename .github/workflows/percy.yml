@@ -36,7 +36,10 @@ jobs:
           node-version: 18
 
       - name: Install Node.js dependencies
-        run: npm install
+        run: |
+          npm install
+          npm install -g @percy/cli
+
 
       - name: Run Percy Visual Tests
         env:
